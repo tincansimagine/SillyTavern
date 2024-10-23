@@ -3840,7 +3840,7 @@ export async function Generate(type, { automatic_trigger, force_name2, quiet_pro
     if (addUserAlignment) {
         const alignmentMessage = {
             name: name1,
-            mes: power_user.instruct.user_alignment_message,
+            mes: substituteParams(power_user.instruct.user_alignment_message),
             is_user: true,
         };
         userAlignmentMessage = formatMessageHistoryItem(alignmentMessage, isInstruct, force_output_sequence.FIRST);
@@ -8218,6 +8218,10 @@ window['SillyTavern'].getContext = function () {
         substituteParams,
         substituteParamsExtended,
         SlashCommandParser,
+        SlashCommand,
+        SlashCommandArgument,
+        SlashCommandNamedArgument,
+        ARGUMENT_TYPE,
         executeSlashCommandsWithOptions,
         /** @deprecated Use SlashCommandParser.addCommandObject() instead */
         registerSlashCommand: registerSlashCommand,
