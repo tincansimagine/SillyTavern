@@ -709,7 +709,7 @@
     "Save edits to messages without confirmation as you type": "입력하는 동안 확인없이 메시지에 대한 편집 사항 저장",
     "Auto-save Message Edits": "메시지 편집 자동 저장",
     "Confirm message deletion": "메시지 삭제 확인",
-    "Auto-fix Markdown": "Markdown 자동 수정",
+    "Auto-fix Markdown": "마크다운 자동 수정",
     "Render LaTeX and AsciiMath equation notation in chat messages. Powered by KaTeX": "채팅 메시지에서 LaTeX 및 AsciiMath 방정식 표기법을 렌더링합니다. KaTeX 제공",
     "Render Formulas": "수식 렌더링",
     "Disallow embedded media from other domains in chat messages": "채팅 메시지에 다른 도메인의 삽입된 미디어를 허용하지 않습니다.",
@@ -1447,7 +1447,8 @@
     "Want to update?": "업데이트 하시겠습니까?",
     "How to start chatting?": "어떻게 채팅을 시작할 수 있나요?",
     "Click _space": "해당 아이콘을 클릭하세요.",
-    "and select a": "그리고 선택하십시오",
+    "and connect to an": "그리고 API를 해당 탭에서 연결하세요.",
+    "and select a": "그리고 선택하세요.",
     "Chat API": "채팅 API",
     "and pick a character.": "그리고 원하는 캐릭터를 선택하세요.",
     "You can browse a list of bundled characters in the": "번들 캐릭터 목록을 검색할 수 있습니다.",
@@ -1621,7 +1622,8 @@
     "or_welcome": "또는",
     "from other websites": "를 통해 다른 웹사이트들로부터 불러올 수 있습니다.",
     "Go to the": "추가 기능 설치를 하려면",
-    "to install additional features.": "으로 가세요",
+    "to install additional features.": "으로 가세요.",
     "Master Import": "마스터 불러오기",
-    "Master Export": "마스터 내보내기"
+    "Master Export": "마스터 내보내기",
+    "Chat Quick Reply Sets": "채팅 빠른 답장 세트들"
 }
